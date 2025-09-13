@@ -1,9 +1,0 @@
-Student Management System
-This is a simple Java-based Student Management System project that demonstrates the use of OOP concepts (classes, objects, constructors, and methods) and ArrayList for storing and managing data.
-The project allows users to add, remove, and display students using a console-based menu system.
-
-Features
-Add Student – Add new students with ID, Name, and Grade.
-Remove Student – Remove a student by their unique ID.
-Display Students – View all students stored in the system.
-Menu-driven Program – User-friendly console interface for performing operations.
