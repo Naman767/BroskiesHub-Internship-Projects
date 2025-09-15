@@ -1,6 +1,6 @@
-import java.util.*;
+package EmployeeCompare;
 
-    // Employee class
+// EmployeeCompare.Employee class
     public class Employee {
         private String name;
         private int age;
@@ -25,6 +25,6 @@ import java.util.*;
         // toString method for easy display
         @Override
         public String toString() {
-            return "Employee [Name=" + name + ", Age=" + age + ", Salary=" + salary + "]";
+            return "EmployeeCompare.Employee [Name=" + name + ", Age=" + age + ", Salary=" + salary + "]";
         }
     }
