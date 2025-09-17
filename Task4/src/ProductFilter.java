@@ -5,15 +5,15 @@ public class ProductFilter {
     //Create sample products.csv
     public static void createSampleCSV(String filename) throws Exception{
         FileWriter fw = new FileWriter(filename);
-        fw.write("Laptop,55000\n");
-        fw.write("Mouse,200\n");
-        fw.write("Keyboard,1500\n");
-        fw.write("Monitor,3000\n");
-        fw.write("USB Cable,300\n");
-        fw.write("CPU Body,5000\n");
-        fw.write("Smart-Phone,15000\n");
-        fw.write("Headphone,1000\n");
-        fw.write("Sound System,3000\n");
+        fw.write("Laptop,55000");
+        fw.write("Mouse,200");
+        fw.write("Keyboard,1500");
+        fw.write("Monitor,3000");
+        fw.write("USB Cable,300");
+        fw.write("CPU Body,5000");
+        fw.write("Smart-Phone,15000");
+        fw.write("Headphone,1000");
+        fw.write("Sound System,3000");
         fw.close();
         System.out.println("Sample products.csv created...");
     }
